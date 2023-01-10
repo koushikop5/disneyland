@@ -5,18 +5,12 @@ const fs = require("fs")
 const image = "https://i.imgur.com/SQ9pFmz.png"
 
 
-/* 
-* Comfi Bot for Discord 
-* Copyright (C) 2021 Xx-Mohit-xX
-* This software is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International 
-* For more information, see README.md and LICENSE 
-*/
 
 module.exports = async (bot) => {
 
  const DarkDashboard = require('dbd-dark-dashboard');
   const prefix = "/"
-  const web = process.env["https://Koushikcodez-lava-link.nooopop.repl.co"]
+  const web = process.env["https://koushikcodez.netlify.app/"]
   const webp = process.env["webp"]
   
   let DBD = require('discord-dashboard');
@@ -52,7 +46,7 @@ bot.slashCommands.filter((cmd) => cmd.directory == file)
       secret: process.env["FKnuVk-FrqvquscoW3Qk4gRm-CTcV3Gh"]
     },
     redirectUri: `${web}discord/callback`,
-    domain: `https://Koushikcodez-lava-link.nooopop.repl.co`,
+    domain: `https://koushikcodez.netlify.app/`,
     bot: bot,
     invite: {
         clientId: bot.user.id,
@@ -73,7 +67,7 @@ bot.slashCommands.filter((cmd) => cmd.directory == file)
         createdBy: "Koushik#7001",
         websiteTitle: "Alpine",
         websiteName: "Alpine",
-        websiteUrl: `https://Koushikcodez-lava-link.nooopop.repl.co`,
+        websiteUrl: `https://koushikcodez.netlify.app`,
         supportServer: "https://discord.gg/gdsdWZZZpy",
         imageFavicon: "https://i.imgur.com/At2XO1M.png",
         iconURL: "https://i.imgur.com/At2XO1M.png",
